@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FDCCE32DBBDC3000305547 /* FantasyAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA52D52DBA8F440077BB56 /* FantasyAssistantApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80BA52AC2DBA8E490077BB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BA52962DBA8E470077BB56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BA529D2DBA8E470077BB56;
+			remoteInfo = FantasyAssistant;
+		};
+		80BA52B62DBA8E490077BB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BA52962DBA8E470077BB56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BA529D2DBA8E470077BB56;
+			remoteInfo = FantasyAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805D56302DCCFF5A006FE6A6 /* FantasyAssistant.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = FantasyAssistant.app; sourceTree = "<group>"; };
+		80BA52D52DBA8F440077BB56 /* FantasyAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyAssistantApp.swift; sourceTree = "<group>"; };
+		80BA52D62DBA8F8D0077BB56 /* FantasyAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FantasyAssistant.app; path = "/Users/27.sean.ross/Documents/FantasyAssistant/build/Debug-iphoneos/FantasyAssistant.app"; sourceTree = "<absolute>"; };
+		80BA52D72DBA8F8D0077BB56 /* FantasyAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BA52D82DBA8F8D0077BB56 /* FantasyAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		80BA52DA2DBA925A0077BB56 /* Exceptions for "ViewModels" folder in "FantasyAssistant" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LeagueViewModel.swift,
+				TeamViewModel.swift,
+			);
+			target = 80BA529D2DBA8E470077BB56 /* FantasyAssistant */;
+		};
+		80BA52DC2DBA92680077BB56 /* Exceptions for "Views" folder in "FantasyAssistant" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AvatarView.swift,
+				LeagueDetailView.swift,
+				LeagueListView.swift,
+				ScoringSettingsView.swift,
+				TeamListView.swift,
+			);
+			target = 80BA529D2DBA8E470077BB56 /* FantasyAssistant */;
+		};
+		80FDCCE02DBBD94400305547 /* Exceptions for "Models" folder in "FantasyAssistant" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				League.swift,
+				Roster.swift,
+				User.swift,
+			);
+			target = 80BA529D2DBA8E470077BB56 /* FantasyAssistant */;
+		};
+		80FDCCE22DBBD94B00305547 /* Exceptions for "Services" folder in "FantasyAssistant" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SleeperAPI.swift,
+			);
+			target = 80BA529D2DBA8E470077BB56 /* FantasyAssistant */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		80BA52C92DBA8E780077BB56 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80FDCCE02DBBD94400305547 /* Exceptions for "Models" folder in "FantasyAssistant" target */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80BA52CB2DBA8E940077BB56 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80FDCCE22DBBD94B00305547 /* Exceptions for "Services" folder in "FantasyAssistant" target */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		80BA52CD2DBA8EA70077BB56 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80BA52DA2DBA925A0077BB56 /* Exceptions for "ViewModels" folder in "FantasyAssistant" target */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		80BA52D02DBA8EC20077BB56 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				80BA52DC2DBA92680077BB56 /* Exceptions for "Views" folder in "FantasyAssistant" target */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80BA529B2DBA8E470077BB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BA52A82DBA8E490077BB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BA52B22DBA8E490077BB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80BA52952DBA8E470077BB56 = {
+			isa = PBXGroup;
+			children = (
+				80BA52D52DBA8F440077BB56 /* FantasyAssistantApp.swift */,
+				80BA52C92DBA8E780077BB56 /* Models */,
+				80BA52CB2DBA8E940077BB56 /* Services */,
+				80BA52CD2DBA8EA70077BB56 /* ViewModels */,
+				80BA52D02DBA8EC20077BB56 /* Views */,
+				80BA52D72DBA8F8D0077BB56 /* FantasyAssistantTests.xctest */,
+				805D56302DCCFF5A006FE6A6 /* FantasyAssistant.app */,
+				80BA52D82DBA8F8D0077BB56 /* FantasyAssistantUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80BA529D2DBA8E470077BB56 /* FantasyAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BA52BF2DBA8E490077BB56 /* Build configuration list for PBXNativeTarget "FantasyAssistant" */;
+			buildPhases = (
+				80BA529A2DBA8E470077BB56 /* Sources */,
+				80BA529B2DBA8E470077BB56 /* Frameworks */,
+				80BA529C2DBA8E470077BB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasyAssistant;
+			packageProductDependencies = (
+			);
+			productName = FantasyAssistant;
+			productReference = 80BA52D62DBA8F8D0077BB56 /* FantasyAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80BA52AA2DBA8E490077BB56 /* FantasyAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BA52C22DBA8E490077BB56 /* Build configuration list for PBXNativeTarget "FantasyAssistantTests" */;
+			buildPhases = (
+				80BA52A72DBA8E490077BB56 /* Sources */,
+				80BA52A82DBA8E490077BB56 /* Frameworks */,
+				80BA52A92DBA8E490077BB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BA52AD2DBA8E490077BB56 /* PBXTargetDependency */,
+			);
+			name = FantasyAssistantTests;
+			packageProductDependencies = (
+			);
+			productName = FantasyAssistantTests;
+			productReference = 80BA52D72DBA8F8D0077BB56 /* FantasyAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80BA52B42DBA8E490077BB56 /* FantasyAssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BA52C52DBA8E490077BB56 /* Build configuration list for PBXNativeTarget "FantasyAssistantUITests" */;
+			buildPhases = (
+				80BA52B12DBA8E490077BB56 /* Sources */,
+				80BA52B22DBA8E490077BB56 /* Frameworks */,
+				80BA52B32DBA8E490077BB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BA52B72DBA8E490077BB56 /* PBXTargetDependency */,
+			);
+			name = FantasyAssistantUITests;
+			packageProductDependencies = (
+			);
+			productName = FantasyAssistantUITests;
+			productReference = 80BA52D82DBA8F8D0077BB56 /* FantasyAssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80BA52962DBA8E470077BB56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					80BA529D2DBA8E470077BB56 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					80BA52AA2DBA8E490077BB56 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 80BA529D2DBA8E470077BB56;
+					};
+					80BA52B42DBA8E490077BB56 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 80BA529D2DBA8E470077BB56;
+					};
+				};
+			};
+			buildConfigurationList = 80BA52992DBA8E470077BB56 /* Build configuration list for PBXProject "FantasyAssistant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80BA52952DBA8E470077BB56;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 80BA52952DBA8E470077BB56;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80BA529D2DBA8E470077BB56 /* FantasyAssistant */,
+				80BA52AA2DBA8E490077BB56 /* FantasyAssistantTests */,
+				80BA52B42DBA8E490077BB56 /* FantasyAssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80BA529C2DBA8E470077BB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BA52A92DBA8E490077BB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BA52B32DBA8E490077BB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80BA529A2DBA8E470077BB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FDCCE32DBBDC3000305547 /* FantasyAssistantApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BA52A72DBA8E490077BB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BA52B12DBA8E490077BB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80BA52AD2DBA8E490077BB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BA529D2DBA8E470077BB56 /* FantasyAssistant */;
+			targetProxy = 80BA52AC2DBA8E490077BB56 /* PBXContainerItemProxy */;
+		};
+		80BA52B72DBA8E490077BB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BA529D2DBA8E470077BB56 /* FantasyAssistant */;
+			targetProxy = 80BA52B62DBA8E490077BB56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80BA52BD2DBA8E490077BB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3P2SB9PN46;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80BA52BE2DBA8E490077BB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3P2SB9PN46;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80BA52C02DBA8E490077BB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P2SB9PN46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEANROSS.FantasyAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80BA52C12DBA8E490077BB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P2SB9PN46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEANROSS.FantasyAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80BA52C32DBA8E490077BB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P2SB9PN46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEANROSS.FantasyAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FantasyAssistant";
+			};
+			name = Debug;
+		};
+		80BA52C42DBA8E490077BB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P2SB9PN46;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEANROSS.FantasyAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FantasyAssistant";
+			};
+			name = Release;
+		};
+		80BA52C62DBA8E490077BB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P2SB9PN46;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEANROSS.FantasyAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyAssistant;
+			};
+			name = Debug;
+		};
+		80BA52C72DBA8E490077BB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P2SB9PN46;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SEANROSS.FantasyAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyAssistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80BA52992DBA8E470077BB56 /* Build configuration list for PBXProject "FantasyAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BA52BD2DBA8E490077BB56 /* Debug */,
+				80BA52BE2DBA8E490077BB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BA52BF2DBA8E490077BB56 /* Build configuration list for PBXNativeTarget "FantasyAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BA52C02DBA8E490077BB56 /* Debug */,
+				80BA52C12DBA8E490077BB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BA52C22DBA8E490077BB56 /* Build configuration list for PBXNativeTarget "FantasyAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BA52C32DBA8E490077BB56 /* Debug */,
+				80BA52C42DBA8E490077BB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BA52C52DBA8E490077BB56 /* Build configuration list for PBXNativeTarget "FantasyAssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BA52C62DBA8E490077BB56 /* Debug */,
+				80BA52C72DBA8E490077BB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80BA52962DBA8E470077BB56 /* Project object */;
+}
